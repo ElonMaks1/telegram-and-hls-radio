@@ -51,16 +51,13 @@
    git clone https://github.com/ElonMaks1/telegram-and-hls-radio.git
    cd radio-python
    ```
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Создайте структуру папок и добавьте треки:
+   
+2. Создайте структуру папок и добавьте треки:
    ```bash
    mkdir -p songs/ prbv/
    # Поместите аудио-файлы в соответствующие папки
    ```
-4. Настройте переменные окружения (опционально):
+3. Настройте переменные окружения (опционально):
    ```bash
    export SONGS_DIR=./songs
    export PRBV_DIR=./prbv
@@ -68,7 +65,7 @@
    export LOCAL_RTMP=rtmp://localhost/live/stream
    export TELEGRAM_RTMP=rtmps://dc4-1.rtmp.t.me/...
    ```
-5. Запустите приложение:
+4. Запустите приложение:
    ```bash
    python radio.py
    ```
