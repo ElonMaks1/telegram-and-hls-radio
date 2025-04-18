@@ -48,7 +48,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/<ваш-логин>/radio-python.git
+   git clone https://github.com/ElonMaks1/telegram-and-hls-radio.git
    cd radio-python
    ```
 2. Установите зависимости:
